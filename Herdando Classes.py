@@ -64,4 +64,5 @@ print(mrg_1.remove_emp(dev_2))
 print(mrg_1.print_emps())
 
 print(isinstance(mrg_1,Developer))
-#Define se e uma instancia, como voce pode ver nao e herdado de developer logo nao e uma instancia de developer, mas sim de  manager
+#Define se e uma instancia, como voce pode ver nao e herdado de developer 
+#logo nao e uma instancia de developer, mas sim de  manager
