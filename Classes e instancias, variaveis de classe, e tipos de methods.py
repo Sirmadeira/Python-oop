@@ -42,7 +42,8 @@ class Trabalhador:
 	def dia_trabalho(dia):
 		if dia.weekday()==5 or dia.weekday()==6:
 			return False
-		return True	
+		return True
+	#Como voce pode ver eu n ao recebi nenhum metodo ou variavel externa.	
 
 
 trab_1=Trabalhador('Jose','Antonio',50000)#Exemplo de instancia
