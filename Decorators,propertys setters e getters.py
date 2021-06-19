@@ -19,7 +19,7 @@ class Employee:
         first, last = name.split(' ')
         self.first = first
         self.last = last
-    
+    #Isso daki e um deleter, como o proprio nome indica ele deleta o atributo metodo definido
     @fullname.deleter
     def fullname(self):
         print('Delete Name!')
